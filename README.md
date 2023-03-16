@@ -1,4 +1,4 @@
-# unified-certification-ui
+# Unified-Certification-UI
 
 ## Project setup
 ```

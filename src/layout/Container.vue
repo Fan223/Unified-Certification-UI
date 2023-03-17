@@ -3,6 +3,7 @@
     <el-header>
       <Header />
     </el-header>
+    <el-divider />
     <el-container>
       <el-aside>
         <Aside />
@@ -20,8 +21,7 @@ export default {
   // eslint-disable-next-line vue/multi-word-component-names
   name: 'Container',
   components: {
-    Header,
-    Aside
+    Header, Aside
   }
 }
 </script>
@@ -33,7 +33,12 @@ export default {
 .el-header {
   height: 60px;
   line-height: 60px;
+  padding: 0;
 }
-.el-aside {
+.el-main {
+  padding: 0;
+}
+.el-divider {
+  margin: 0;
 }
 </style>
